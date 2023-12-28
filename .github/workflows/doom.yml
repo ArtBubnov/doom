@@ -55,6 +55,7 @@ jobs:
             cd doom_ascii
             ls -a -l
             cd $HOME_DIR
+            ls -a -l
             echo -e "--- STEP 3 UNZIP---\n\n"
 
 
