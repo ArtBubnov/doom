@@ -44,15 +44,15 @@ jobs:
             ls -a
             echo "----------------"
             cd doom_ascii
-            ls -a
+            ls -a -l
             cd $HOME_DIR
             echo -e "\n\n --- STEP 2 ---"
 
 
+            echo -e "--- STEP 3 UNZIP---\n\n"
+            unzip Doom\ \(v1.9\)\ \(Demo\).zip -d ./doom-ascii/
+            echo -e "--- STEP 3 UNZIP---\n\n"
 
-            unzip Doom\ \(v1.9\)\ \(Demo\).zip -d $HOME_DIR/doom-ascii/
-            chmod +x $HOME_DIR/doom-ascii/doom-ascii
-            $HOME_DIR/doom-ascii/doom-ascii
 
 #            sudo ln -s $HOME_DIR/doom-ascii/doom-ascii /usr/bin/doom-ascii
 #            doom-ascii
