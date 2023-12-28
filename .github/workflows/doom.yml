@@ -55,7 +55,8 @@ jobs:
             echo -e "--------\n\n\n"
 
 
-            unzip Doom\ \(v1.9\)\ \(Demo\).zip -d $HOME_DIR/doom-ascii/
+            
+            unzip Doom\ \(v1.9\)\ \(Demo\).zip -d ~/doom-ascii/doom-ascii/
             
 
 
