@@ -51,8 +51,11 @@ jobs:
 
 
             unzip Doom\ \(v1.9\)\ \(Demo\).zip -d $HOME_DIR/doom-ascii/
-            sudo ln -s $HOME_DIR/doom-ascii/doom-ascii /usr/bin/doom-ascii
-            doom-ascii
+            chmod +x $HOME_DIR/doom-ascii/doom-ascii
+            $HOME_DIR/doom-ascii/doom-ascii
+
+#            sudo ln -s $HOME_DIR/doom-ascii/doom-ascii /usr/bin/doom-ascii
+#            doom-ascii
 #            echo -e "--- STEP 3 ---\n\n"
 #            cd doom_ascii
 #            chmod +x doom_ascii
