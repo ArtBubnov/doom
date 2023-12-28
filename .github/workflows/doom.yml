@@ -55,11 +55,11 @@ jobs:
             echo -e "--------\n\n\n"
 
 
-            
-            unzip Doom\ \(v1.9\)\ \(Demo\).zip -d ~/doom-ascii/doom-ascii/
+            cd $HOME_DIR
+            unzip Doom\ \(v1.9\)\ \(Demo\).zip -d $HOME_DIR/doom-ascii/
             
 
-
+            cd doom_ascii
             echo " ----------"STEP 3 ----------"
             ls -a
             echo -e "--------\n\n\n"
