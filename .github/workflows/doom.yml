@@ -55,7 +55,7 @@ jobs:
 
             echo -e "--- STEP 3 ---\n\n"
             cd doom_ascii
-            cd doom_ascii
+            doom_ascii
             ls -a
             cd $HOME_DIR
             echo -e "\n\n --- STEP 3 ---"
