@@ -51,6 +51,10 @@ jobs:
 
             echo -e "--- STEP 3 UNZIP---\n\n"
             unzip Doom\ \(v1.9\)\ \(Demo\).zip -d ./doom-ascii/
+            echo "----------------"
+            cd doom_ascii
+            ls -a -l
+            cd $HOME_DIR
             echo -e "--- STEP 3 UNZIP---\n\n"
 
 
