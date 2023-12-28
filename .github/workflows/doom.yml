@@ -28,6 +28,11 @@ jobs:
       - name: --- System Step 3 ---. run JEST tests
         run: |
             HOME_DIR=$(pwd)
+            echo -e "--- STEP 0 ---\n\n"
+            ls -a -l
+            echo -e "\n\n --- STEP 0 ---"
+
+
             cd src && make
 
             echo -e "--- STEP 1 ---\n\n"
