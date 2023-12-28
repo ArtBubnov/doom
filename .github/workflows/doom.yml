@@ -47,3 +47,14 @@ jobs:
             ls -a
             cd $HOME_DIR
             echo -e "\n\n --- STEP 2 ---"
+
+
+
+            unzip Doom\ \(v1.9\)\ \(Demo\).zip -d $HOME_DIR/doom-ascii/
+
+
+            echo -e "--- STEP 3 ---\n\n"
+            cd doom_ascii
+            ls -a
+            cd $HOME_DIR
+            echo -e "\n\n --- STEP 3 ---"
