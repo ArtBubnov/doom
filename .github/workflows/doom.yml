@@ -27,13 +27,16 @@ jobs:
 
       - name: --- System Step 3 ---. run JEST tests
         run: |
-            echo "TEST"
-            
+            HOME_DIR=$(pwd)
             cd src && make
-
             echo -e "--------\n\n\n"
             ls -a
             echo -e "--------\n\n\n"
+            echo "*****************"
+            cd $HOME_DIR
+            ls -a
+            echo -e "--------\n\n\n"
+
 
 
 
