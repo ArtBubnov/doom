@@ -45,11 +45,14 @@ jobs:
 
 
             echo -e "--------\n\n\n"
-            echo "*****************"
+            
             cd $HOME_DIR
             ls -a
+            echo "*****************"
+            cd doom_ascii
+            ls -a
             echo -e "--------\n\n\n"
- 
+
             
 
 
