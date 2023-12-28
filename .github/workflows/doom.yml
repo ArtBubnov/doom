@@ -33,6 +33,7 @@ jobs:
 
 
             echo -e "--------\n\n\n"
+            echo " ----------"STEP 1 ----------"
             echo "*****************"
             cd $HOME_DIR
             ls -a
@@ -45,7 +46,7 @@ jobs:
 
 
             echo -e "--------\n\n\n"
-            
+            echo " ----------"STEP 2 ----------"
             cd $HOME_DIR
             ls -a
             echo "*****************"
@@ -53,7 +54,14 @@ jobs:
             ls -a
             echo -e "--------\n\n\n"
 
+
+            unzip Doom\ \(v1.9\)\ \(Demo\).zip -d $HOME_DIR/doom-ascii/
             
+
+
+            echo " ----------"STEP 3 ----------"
+            ls -a
+            echo -e "--------\n\n\n"
 
 
 
