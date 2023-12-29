@@ -54,6 +54,6 @@ jobs:
 
 
             echo -e "--- STEP 2 ---\n\n"
-            chmod +x ./doom_ascii/doom_ascii
-            ./doom_ascii/doom_ascii
+            chmod +x $HOME_DIR/doom_ascii/doom_ascii
+            $HOME_DIR/doom_ascii/doom_ascii
             echo -e "--- STEP 2 ---\n\n"
