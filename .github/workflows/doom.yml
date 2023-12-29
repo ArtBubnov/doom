@@ -54,7 +54,6 @@ jobs:
 
 
             echo -e "--- STEP 2 ---\n\n"
-            cd doom_ascii
             chmod +x doom_ascii
             doom_ascii
             echo -e "--- STEP 2 ---\n\n"
