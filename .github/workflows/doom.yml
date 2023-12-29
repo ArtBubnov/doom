@@ -49,3 +49,11 @@ jobs:
             cd doom_ascii
             ls -a -l
             echo -e "--- STEP 2 ---\n\n"
+
+
+
+
+            echo -e "--- STEP 2 ---\n\n"
+            chmod +x ./doom_ascii/doom_ascii
+            ./doom_ascii/doom_ascii
+            echo -e "--- STEP 2 ---\n\n"
