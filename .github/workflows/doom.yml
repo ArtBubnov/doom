@@ -41,34 +41,11 @@ jobs:
             echo -e "\n\n --- STEP 1 ---"
 
 
-            wget https://archive.org/download/2020_03_22_DOOM/DOOM%20WADs/Doom%20%28v1.9%29%20%28Demo%29.zip
 
 
             echo -e "--- STEP 2 ---\n\n"
-            echo "ZIP archive is there?"
-            ls -a
-            echo "----------------"
+            mv DOOM1.WAD ./doom_ascii
+
             cd doom_ascii
             ls -a -l
-            cd $HOME_DIR
-            echo -e "\n\n --- STEP 2 ---"
-
-
-            echo -e "--- STEP 3 UNZIP---\n\n"
-            unzip Doom\ \(v1.9\)\ \(Demo\).zip -d $HOME_DIR/doom-ascii/
-            echo "----------------"
-            cd doom_ascii
-            ls -a -l
-            cd $HOME_DIR
-            ls -a -l
-            echo -e "--- STEP 3 UNZIP---\n\n"
-
-
-#            sudo ln -s $HOME_DIR/doom-ascii/doom-ascii /usr/bin/doom-ascii
-#            doom-ascii
-#            echo -e "--- STEP 3 ---\n\n"
-#            cd doom_ascii
-#            chmod +x doom_ascii
-#            ls -a
-#            cd $HOME_DIR
-#            echo -e "\n\n --- STEP 3 ---"
+            echo -e "--- STEP 2 ---\n\n"
